@@ -1,0 +1,397 @@
+body {
+    background: #e5e5e5;
+  }
+  .baner-one {
+    width: 1440px;
+    height: 72px;
+    background: #0b2239;
+    display: flex;
+  }
+  .baner-one-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-left: 120px;
+  }
+  .baner-one-link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4ad295;
+    position: absolute;
+    top: 26px;
+    right: 260px;
+    bottom: 26px;
+    left: 1098px;
+  }
+  .baner-one-btn {
+    height: 36px;
+    background: #4ad295;
+    border-radius: 2px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 10px;
+    gap: 10px;
+    position: absolute;
+    left: 1200px;
+    right: 130px;
+    top: 20px;
+    cursor: pointer;
+  }
+  .baner-two {
+    width: 1440px;
+    height: 52px;
+    background: #2b2627;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15),
+      0px 0px 1px rgba(96, 96, 96, 0.1);
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+  }
+  .baner-two-btn-stop {
+    background: none;
+    border: 0;
+    margin-right: 8px;
+  }
+  .baner-two-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  .baner-two-btn-close {
+    background: none;
+    border: 0;
+    margin-left: 20px;
+  }
+  .baner-second {
+    margin-top: 72px;
+  }
+  .baner-three {
+    width: 560px;
+    height: 72px;
+    background: #ffffff;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15),
+      0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .baner-three-picture {
+    margin-right: 10px;
+  }
+  .baner-three-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0d0c22;
+    margin-right: 10px;
+  }
+  .baner-three-redtext {
+    color: #ea4c89;
+  }
+  .baner-three-btn {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #0d0c22;
+    width: 63px;
+    height: 28px;
+    background: rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  .baner-three-btn-next {
+    width: 52px;
+    height: 28px;
+  
+    background: #ea4c89;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  .baner-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 64px;
+    background: #26262b;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15),
+      0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 10px;
+    margin-top: 24px;
+  }
+  .baner-four-text {
+    font-family: "Avenir LT Std";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-left: 16px;
+    margin-right: 20px;
+  }
+  .baner-four-orangtext {
+    color: #e6842e;
+  }
+  .baner-four-btn {
+    width: 49px;
+    height: 28px;
+    background: #ffffff;
+    border-radius: 8px;
+    font-family: "Avenir LT Std";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #26262b;
+  }
+  
+  .baner-third li {
+    display: block;
+    padding: 0px;
+  }
+  
+  .baner-five-cookie {
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+  .baner-five {
+    width: 360px;
+    height: 206px;
+    background: rgba(28, 37, 64, 0.95);
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15),
+      0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 6px;
+    margin-top: 72px;
+  }
+  
+  .baner-five-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-left: 24px;
+  }
+  .baner-five-next-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 24px;
+  }
+  .baner-five-btn {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    width: 85px;
+    height: 32px;
+    background: #09b3af;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+    border-radius: 6px;
+    margin-right: 24px;
+  }
+  .baner-five-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .baner-six {
+    width: 360px;
+    height: 170px;
+    background: #ffffff;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15),
+      0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 16px;
+    margin-left: 40px;
+    margin-top: 72px;
+  }
+  .baner-six-cookie {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  
+  .baner-six-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #687f8c;
+    margin-left: 16px;
+  }
+  .baner-six-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .baner-six-btn {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #687f8c;
+    width: 160px;
+    height: 32px;
+    background: #eaf0f4;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+    border-radius: 6px;
+  }
+  .baner-six-nextbtn {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    width: 160px;
+    height: 32px;
+    background: #40c1a7;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+    border-radius: 6px;
+  }
+  
+  ul {
+    display: flex;
+    padding: 0;
+  }
+  .list {
+    list-style: none;
+  }
+  
+  .baner-fourth {
+    margin-top: 72px;
+    display: flex;
+  }
+  .baner-seven {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 260px;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.15) 0%,
+        rgba(186, 226, 255, 0.15) 23.96%,
+        rgba(229, 217, 255, 0.15) 71.87%,
+        rgba(255, 255, 255, 0.15) 100%
+      ),
+      #ffffff;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 20px;
+  }
+  h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    color: #15295a;
+  }
+  .baner-seven-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #15295a;
+  }
+  .baner-seven-btn {
+    width: 121px;
+    height: 44px;
+    background: #4a7eff;
+    border-radius: 43px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .baner-eight {
+    width: 320px;
+    height: 137px;
+    background: #ffffff;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 4px;
+    margin-left: 40px;
+  }
+  .baner-eight-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 16px;
+  }
+  .baner-eight-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6666ff;
+    margin-left: 16px;
+    margin-right: 128px;
+  }
+  .baner-eight-btn {
+    width: 64px;
+    height: 33px;
+    background: #6666ff;
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
