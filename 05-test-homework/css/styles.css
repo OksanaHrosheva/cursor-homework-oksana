@@ -1,0 +1,91 @@
+body{
+    
+    background: #454343;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+table{
+    
+    color: white;
+    font-size:small;
+    
+     border: 1px solid grey;
+     border-radius: 10px;
+     
+    
+    
+}
+    
+td{
+    width: 250px;
+    height: 50px;
+    padding: 10px 10px;
+    border-top: 1px solid grey;
+ 
+    }
+tr{
+    width: 250px;
+    height: 50px; 
+    text-align: left;
+    
+     
+}
+th{ 
+    padding: 10px 10px;
+    
+    
+    
+}
+
+.none{
+    text-align:right;
+    font-size:xx-large;
+
+}
+.time{
+    color: gray;
+}
+.file{
+    font-weight: 300;
+    
+}
+.picture{
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.table-two{
+    margin-top: 50px;
+}
+.square{
+    margin-right: 10px;
+}
+input{ margin-right: 10px;
+ }
+form{
+    width: 150px;
+   
+}
+.download{
+    margin-left: 45px;
+    background: rgb(163, 161, 161);
+    border-radius: 6px;
+    
+    height: 30px;
+}
+.search{
+    display: flex;
+    position: relative;
+  
+}
+input::placeholder{
+   color: gray;
+   padding-left: 40px;
+}
+.loupe{
+    position: absolute;
+    left: 50px;
+    top: 3px;
+    
+}
