@@ -1,0 +1,40 @@
+.form-control{
+    background-image: url(../img/search.png)  ;
+    background-repeat: no-repeat;
+    background-position: 30% 55%;
+    width: 216px;
+}
+.form-control::placeholder{
+    text-align: center;
+}
+.line{
+    width: auto;
+    margin-top: 10px;
+    height: 2px;
+    border-top: 1px solid rgb(165, 160, 160);
+    opacity: 0.5;
+
+}
+.btn-info{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    width: 33px;
+    height: 29px;
+}
+.btn-primary{
+    width: 97px;
+    height: 29px;
+}
+.text{
+    color: black;
+}
+.link-items{
+    color: black;
+}
+.link-item-two{
+    color: rgb(75, 10, 136);
+}
+.black-row{
+    border-top: 2px solid rgb(49, 48, 48);
+    
+}
